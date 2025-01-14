@@ -1,0 +1,11 @@
+FROM ubuntu:24.04
+
+RUN apt-get update -y
+RUN apt-get install -y tzdata
+ENV TZ America/Sao_Paulo
+
+RUN apt-get install -y apache2
+EXPOSE 80
+
+CMD ["/usr/sbin/apache2ctl","-D","FOREGROUND"]
+
