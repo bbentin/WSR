@@ -13,6 +13,7 @@ A parte das ferramentas que já foram decididas, as demais são de livre escolha
 - Web Server: Apache2
 - Distribuição Linux: KUbuntu 24.04
 - Banco de dados: MySQL
-- Linguagem de script: C++
+- Linguagem de script: Python3
+- Balanço de carga: NGNIX
 
 
